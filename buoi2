@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang ="en"></html>
+<hr>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home Page </title>
+</head>
+<body>
+    <h1> Resume</h1>
+
+    <h2> Bob</h2>
+    <img src="https://monkeymedia.vcdn.com.vn/upload/web/img_default/monkey2.png" alt="Monkey" width="150" height="150">
+<hr>
+<p><b> Interests</b></p>
+<ul>
+    <li>Drawing</li>
+    <li>Photography</li>
+    <li>Design</li>
+    <li>Programming</li>
+    <li>Computer Science</li>
+</ul>
+<p><b> Skill </b></p>
+<ul>
+    <li>Web development with HTML, CSS, JS</li>
+</ul>
+<p><b> Education</b></p>
+<ul>
+    <li>
+        <a href="https://mindx.vn/" target=">blank"> MindX Technology School</a>
+    </li>
+</ul>
+<p><b> Experience </b></p>
+<ul>
+    <li> Student Technology Intern for Wilton School District </li>
+    <li> Babysitter</li>
+</ul>
+<p><b> Extracurriculars</b></p>
+<ul>
+    <li> Recycling Club</li>
+    <li> Gardening Club </li>
+    <li> Book club </li>
+</ul>
+<hr>
+<a href="https://www.facebook.com/sen.du17/"> Contact me</a>
+<p> Leave me a message </p>
+
+<style>
+table, th, td{
+    border: 1px solid black;
+}
+</style>
+<html>
+
+<h2> A basic HTML table</h2>
+
+<table style="width:30%">
+<tr>
+    <th> Company</th>
+    <th> Year </th>
+</tr>
+<tr>
+    <td> Alfreds Futterkiste</td>
+    <td> 2019</td>
+</tr>
+</table>
+<p> To understand the example better, we have add borders to the table. </p>
+</body>
+</html>
