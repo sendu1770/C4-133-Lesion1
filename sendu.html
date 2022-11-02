@@ -5,25 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title> Home Page </title>
+    <style>
+        table, th, td{
+        border: 1px solid black;
+    }
+    </style>
 </head>
-<html>
+<body>
     <h1> Resume</h1>
-
     <h2> Bob</h2>
-    <img src="https://monkeymedia.vcdn.com.vn/upload/web/img_default/monkey2.png" alt="Monkey" width="150" height="150">
-<hr>
-<p><b> Interests</b></p>
+    <div class="Hinhdaidien">
+        <img src="https://monkeymedia.vcdn.com.vn/upload/web/img_default/monkey2.png" alt="Monkey" width="150" height="150">
+    </div>
+
+    <style> 
+        input:checked {
+          height: 10px;
+          width: 10px;
+        }
+        </style>
+        </head>
+        <body>
+        
+            <p> Radio</p>
+        <form action="">
+          <input type="radio" checked="checked" value="HTML" name="language"> HTML<br>
+          <input type="radio" value="CSS" name="language"> CSS<br>
+        </form>
+            
+            <p>Check box</p>
+            <form action="">
+                <input type="checkbox" checked="checked" value="HTML" name="language"> HTML<br>
+                <input type="checkbox" value="CSS" name="language"> CSS<br>
+              </form>
+        
+
+    <p><b> Interests</b></p>
 <ul>
-    <li>Drawing</li>
-    <li>Photography</li>
-    <li>Design</li>
-    <li>Programming</li>
-    <li>Computer Science</li>
+        <li>Drawing</li>
+        <li>Photography</li>
+        <li>Design</li>
+        <li>Programming</li>
+    <div class="l1">
+        <li>Computer Science</li>
+    </div>
 </ul>
 <p><b> Skill </b></p>
 <ul>
-    <li>Web development with HTML, CSS, JS</li>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <li>Web development with HTML, CSS, JS:</li> <span class="material-symbols-outlined">
+        star
+        </span> <span class="material-symbols-outlined">
+            star
+            </span><span class="material-symbols-outlined">
+                star
+                </span><span class="material-symbols-outlined">
+                    star
+                    </span><span class="material-symbols-outlined">
+                        star
+                        </span>
+    <li>Website design with Photoshop&Figma:</li><span class="material-symbols-outlined">
+        star
+        </span><span class="material-symbols-outlined">
+            star
+            </span><span class="material-symbols-outlined">
+                star
+                </span>
 </ul>
 <p><b> Education</b></p>
 <ul>
@@ -38,34 +87,23 @@
 </ul>
 <p><b> Extracurriculars</b></p>
 <ul>
-    <li> Recycling Club</li>
-    <li> Gardening Club </li>
-    <li> Book club </li>
+        <li> Recycling Club</li>
+        <li> Gardening Club </li>
+    <div class="l1">
+        <li> Book club </li>
+    </div>
 </ul>
-<hr>
-<a href="https://kenh14.vn/"> Contact me</a>
-<p>or</p>
-<p> Leave me a message </p>
+<div id="Contact">
+<a href="https://www.facebook.com/sen.du17/"> Contact me</a>
+</div>
 
-<style>
-table, th, td{
-    border: 1px solid black;
-}
-</style>
-<html>
-
-<h2> A basic HTML table</h2>
-
-<table style="width:50%">
-<tr>
-    <th> Company</th>
-    <th> Year </th>
-</tr>
-<tr>
-    <td> Alfreds Futterkiste</td>
-    <td> 2019</td>
-</tr>
-</table>
-<p> To understand the example better, we have add borders to the table. </p>
-</html>
-</body>
+<label for=”mess”>Message</lable><br>
+    <textarea id=”” cols=”30” rows=”10”> </textarea>
+    </from>
+    
+<button id="whatever" class="btn btn-large btn-primary" name="Continue" type="submit">
+    <span>Submit</span>
+    <i class="icon-ok" style="font-size:15px; vertical-align: middle;"></i>
+</button>
+    </body>
+    </html>

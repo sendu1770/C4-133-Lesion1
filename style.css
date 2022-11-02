@@ -1,0 +1,15 @@
+.Hinhdaidien{
+    border-bottom:dashed;
+}
+body{
+    background-color:aquamarine;
+}
+ul li:first-child {
+    background:red;
+}
+.l1:last-child {
+    background: red;
+}
+#Contact{
+    border-top:dashed;
+}
