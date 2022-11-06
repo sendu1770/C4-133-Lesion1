@@ -5,26 +5,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Contact Page </title>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
-<body>
-    <h1> Resume</h1>
 
-    <h2> Bob</h2>
-    <img src="https://monkeymedia.vcdn.com.vn/upload/web/img_default/monkey2.png" alt="Monkey" width="150" height="150">
-<hr>
-    <label>Your Email</label><br>
-    <input type="text" />
-    
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <h1>Resume</h1>
+    <h2>Bob</h2>
+    <img src="https://img.freepik.com/free-vector/cute-monkey-working-laptop_138676-3304.jpg?w=2000" alt="avatar"
+        width="250px">
+    <hr>
+    <p>Leave me a message</p>
     <form>
-        <label>Leave me a message</label><br>
-        <textarea rows="10" cols="29">  
-            Your message here
-          </textarea>  
-          <input type="submit" value="Submit">
+        <label for="">
+            Your email <br>
+            <input id="mess" type="text" placeholder="Nhap ten cua ban">
+        </label>
+
+        <br>
+        <label for="mess">Message</label><br>
+        <textarea id="mess" cols="30" rows="10"></textarea>
+
+        <br>
+        <label for="">Dap an dung</label>
+        <select name="" id="">
+            <option value="">Cau a</option>
+            <option value="">Cau b</option>
+        </select>
+
+        <p>Radio</p>
+        <input class="radio-input" type="radio" name="fav_language">
+        <label for="html">HTML</label><br>
+        <input class="radio-input" type="radio" name="fav_language">
+        <label for="css">CSS</label><br>
+
+        <p>Checkbox</p>
+        <input type="checkbox" name="fav_language2">
+        <label for="html">HTML 2</label><br>
+        <input type="checkbox" name="fav_language2">
+        <label for="css">CSS 2</label><br>
+
+        <br>
+
+        <button>
+          <span class="material-symbols-outlined">
+            search
+          </span>
+          <span>Submit</span> 
+          <span class="material-symbols-outlined">
+            </span>
+        </button>
+
     </form>
+
+    <table border="2px">
+        <thead>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$80</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Sum</td>
+              <td>$180</td>
+            </tr>
+          </tfoot>
+    </table>
 </body>
 </html>
