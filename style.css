@@ -1,5 +1,5 @@
-background-color {
-    rgb(116, 136, 168);
+:root {
+    --mau-do: rgb(116, 136, 168);
 }
 
 .title {
@@ -36,3 +36,4 @@ button span {
 .contact{
     border-top: 2px dashed red;
     width: 80%;
+}

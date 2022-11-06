@@ -1,0 +1,22 @@
+#menubar ul{
+    background:#FFFFCC;
+}
+#menubar ul li{
+    display:inline-table;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#menubar ul li a:hover{
+    background: white;
+    color:black;
+}
+
+#logo img[src="https://cdn-icons-png.flaticon.com/512/185/185852.png"] {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 21px;
+    left: 97%;
+  }
