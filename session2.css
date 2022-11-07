@@ -1,5 +1,6 @@
 #menubar ul{
     background:#FFFFCC;
+
 }
 #menubar ul li{
     display:inline-table;
@@ -13,6 +14,10 @@
     color:black;
 }
 
+.material-symbols-outlined{
+    color: yellow;
+}
+
 #logo img[src="https://cdn-icons-png.flaticon.com/512/185/185852.png"] {
     width: 29px;
     height: 29px;
@@ -20,3 +25,43 @@
     top: 21px;
     left: 97%;
   }
+
+
+.avatar{
+    position: relative;
+}
+
+.avatar{
+    position:absolute;
+    bottom: 250px;
+    left: 1090px;
+}
+
+  
+.Text{
+    position:absolute;
+    top: 450px;
+}
+
+.Link{
+    position:absolute;
+    bottom: -40%;
+}
+
+.button{
+    position: fixed;
+    bottom: 0%;
+    right:3%;
+}
+
+
+.thanh-ten{
+    background-color: grey;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    float: left;
+}
+.thanh-ten{
+    position: fixed;
+}
