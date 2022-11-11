@@ -1,3 +1,6 @@
+#menubar a{
+    margin: 0% 20px;
+}
 #menubar ul{
     background:#FFFFCC;
 
@@ -63,5 +66,6 @@
     float: left;
 }
 .thanh-ten{
+    float:left;
     position: fixed;
 }
