@@ -1,39 +1,214 @@
 :root {
-    --mau-do: rgb(116, 136, 168);
+    --page-color: #3dec55; 
+    --white-color: #fff;
+    --black-color: #000;
 }
 
-.title {
-    color: red;
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body {
-    background-color: aquamarine;
+.main {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-.div-image {
-    border-bottom: 2px dashed red;
-    width: 80%;
+.form-login {
+    display: flex;
+    width: 815px;
 }
 
-.icon-star {
-    vertical-align: fixed;
-    color: red;
+.login {
+    background-color: rgb(250, 243, 243);
+    width: 50%;
+    padding: 0 0 20px 0;
 }
 
-ul li:first-child {
-    color: red;
+.login-header {
+    text-align: center;
 }
 
-
-.radio-input:checked + label {
-    color: red;
+.login h1 {
+    font-size: 48px;
+    margin: 0;
+    padding-top: 30px;
 }
 
-button span {
-    vertical-align: middle;
+.login p {
+    font-size: 12px;
 }
 
-.contact{
-    border-top: 2px dashed red;
-    width: 80%;
+.icon {
+    font-size: 28px;
+}
+
+.icon i {
+    margin-right: 8px;
+}
+
+.icon i:last-child {
+    font-size: 34px;
+}
+
+.form {
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.form input {
+    border-top: 2px solid var(--page-color);
+    display: block;
+    width: 91%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: rgb(236, 232, 232);
+}
+
+.login-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.remember-password {
+    display: inline-block;
+    background-color: rgb(206, 203, 203);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#forgot-password {
+    font-size: 16px;
+    margin: 26px;
+}
+
+.login-button {
+    font-size: 20px;
+    color: var(--white-color);
+    background-color: var(--page-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.greshop {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--page-color);
+    color: var(--white-color);
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+    flex: 1;
+}
+
+.introduction h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.introduction p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.greshop a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.form-sign-up {
+    padding: 0 30px;
+}
+
+.form-sign-up input {
+    border-top: 2px solid var(--page-color);
+    display: block;
+    width: 91%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: rgb(236, 232, 232);
+}
+
+.head__ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    flex: 1;
+}
+
+.head__ h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.head__ p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#ma-xac-thuc {
+    position: relative;
+}
+
+#gui-ma {
+    position: absolute;
+    background-color: var(--page-color);
+    color: var(--white-color);
+    top: 1px;
+    padding: 8px;
+    right: 1px;
+    cursor: pointer;
+}
+
+#gender {
+    position: relative;
+    cursor: pointer;
+}
+
+#gender:hover #gender-selection {  
+    display: block;
+}
+
+#gender-icon {
+    position: absolute;
+    top: 14px;
+    font-size: 12px;
+    right: 20px;
+}
+
+#gender-selection {
+    position: absolute;
+    background-color: rgb(236, 232, 232);
+    width: 91%;
+    padding: 0 15px;
+    border-top: 1px solid rgb(189, 187, 187);
+    top: 37px;
+    display: none;
+}
+#gender-selection p {
+    font-size: 16px;
 }
